@@ -1,0 +1,535 @@
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+Processing by Api::EdgesController#index as HTML
+Completed 500 Internal Server Error in 37ms
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+Processing by Api::EdgesController#index as HTML
+Completed 500 Internal Server Error in 9ms
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+Processing by Api::EdgesController#index as HTML
+  Rendered text template (0.0ms)
+Completed 200 OK in 7ms (Views: 7.1ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+Processing by Api::EdgesController#index as HTML
+  Rendered text template (0.0ms)
+Completed 200 OK in 22ms (Views: 21.9ms | ActiveRecord: 0.0ms)
+  [1m[36m (0.1ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (1.2ms)[0m  INSERT INTO "categories" ("created_at", "name", "updated_at") VALUES (?, ?, ?)  [["created_at", "2014-08-15 14:45:19.449865"], ["name", "category"], ["updated_at", "2014-08-15 14:45:19.449865"]]
+  [1m[36m (0.0ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.7ms)[0m  rollback transaction
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+Processing by Api::EdgesController#index as HTML
+  Rendered text template (0.0ms)
+Completed 200 OK in 6ms (Views: 5.9ms | ActiveRecord: 0.0ms)
+  [1m[36m (0.1ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.0ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (1.1ms)[0m  INSERT INTO "categories" ("created_at", "name", "updated_at") VALUES (?, ?, ?)  [["created_at", "2014-08-15 14:47:06.973114"], ["name", "category"], ["updated_at", "2014-08-15 14:47:06.973114"]]
+  [1m[36m (0.0ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "requirements" ("created_at", "mode", "name", "updated_at", "value") VALUES (?, ?, ?, ?, ?)[0m  [["created_at", "2014-08-15 14:47:06.998356"], ["mode", "rank"], ["name", "req"], ["updated_at", "2014-08-15 14:47:06.998356"], ["value", "val"]]
+  [1m[35m (0.0ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.6ms)[0m  [1mrollback transaction[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (1.2ms)[0m  INSERT INTO "categories" ("created_at", "name", "updated_at") VALUES (?, ?, ?)  [["created_at", "2014-08-15 14:50:35.158733"], ["name", "category"], ["updated_at", "2014-08-15 14:50:35.158733"]]
+  [1m[36m (0.0ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.0ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "requirements" ("created_at", "mode", "name", "updated_at", "value") VALUES (?, ?, ?, ?, ?)[0m  [["created_at", "2014-08-15 14:50:35.167537"], ["mode", "rank"], ["name", "req"], ["updated_at", "2014-08-15 14:50:35.167537"], ["value", "val"]]
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.7ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+Processing by Api::EdgesController#index as HTML
+Completed 200 OK in 24ms (Views: 23.6ms | ActiveRecord: 0.0ms)
+  [1m[36m (0.1ms)[0m  [1mrollback transaction[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+Processing by Api::EdgesController#index as HTML
+  Rendered text template (0.0ms)
+Completed 200 OK in 6ms (Views: 6.2ms | ActiveRecord: 0.0ms)
+  [1m[36m (0.1ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36m (0.0ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (1.3ms)[0m  INSERT INTO "categories" ("created_at", "name", "updated_at") VALUES (?, ?, ?)  [["created_at", "2014-08-15 14:51:03.538076"], ["name", "category"], ["updated_at", "2014-08-15 14:51:03.538076"]]
+  [1m[36m (0.0ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "requirements" ("created_at", "mode", "name", "updated_at", "value") VALUES (?, ?, ?, ?, ?)[0m  [["created_at", "2014-08-15 14:51:03.564026"], ["mode", "rank"], ["name", "req"], ["updated_at", "2014-08-15 14:51:03.564026"], ["value", "val"]]
+  [1m[35m (0.0ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.6ms)[0m  [1mrollback transaction[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+Processing by Api::EdgesController#index as HTML
+  Rendered text template (0.0ms)
+Completed 200 OK in 6ms (Views: 6.2ms | ActiveRecord: 0.0ms)
+  [1m[36m (0.1ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.0ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (1.2ms)[0m  INSERT INTO "categories" ("created_at", "name", "updated_at") VALUES (?, ?, ?)  [["created_at", "2014-08-15 14:51:14.697529"], ["name", "category"], ["updated_at", "2014-08-15 14:51:14.697529"]]
+  [1m[36m (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "requirements" ("created_at", "mode", "name", "updated_at", "value") VALUES (?, ?, ?, ?, ?)[0m  [["created_at", "2014-08-15 14:51:14.722764"], ["mode", "rank"], ["name", "req"], ["updated_at", "2014-08-15 14:51:14.722764"], ["value", "val"]]
+  [1m[35m (0.0ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.6ms)[0m  [1mrollback transaction[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+Processing by Api::EdgesController#index as HTML
+  Rendered text template (0.0ms)
+Completed 200 OK in 6ms (Views: 5.9ms | ActiveRecord: 0.0ms)
+  [1m[36m (0.1ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36m (0.0ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (1.2ms)[0m  INSERT INTO "categories" ("created_at", "name", "updated_at") VALUES (?, ?, ?)  [["created_at", "2014-08-15 14:51:43.874208"], ["name", "category"], ["updated_at", "2014-08-15 14:51:43.874208"]]
+  [1m[36m (0.0ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "requirements" ("created_at", "mode", "name", "updated_at", "value") VALUES (?, ?, ?, ?, ?)[0m  [["created_at", "2014-08-15 14:51:43.899419"], ["mode", "rank"], ["name", "req"], ["updated_at", "2014-08-15 14:51:43.899419"], ["value", "val"]]
+  [1m[35m (0.0ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.6ms)[0m  [1mrollback transaction[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+Processing by Api::EdgesController#index as HTML
+  Rendered text template (0.0ms)
+Completed 200 OK in 6ms (Views: 6.2ms | ActiveRecord: 0.0ms)
+  [1m[36m (0.1ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (1.3ms)[0m  INSERT INTO "categories" ("created_at", "name", "updated_at") VALUES (?, ?, ?)  [["created_at", "2014-08-15 15:07:48.984568"], ["name", "category"], ["updated_at", "2014-08-15 15:07:48.984568"]]
+  [1m[36m (0.0ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "requirements" ("created_at", "mode", "name", "updated_at", "value") VALUES (?, ?, ?, ?, ?)[0m  [["created_at", "2014-08-15 15:07:49.010004"], ["mode", "rank"], ["name", "req"], ["updated_at", "2014-08-15 15:07:49.010004"], ["value", "val"]]
+  [1m[35m (0.0ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.7ms)[0m  [1mrollback transaction[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+Processing by Api::EdgesController#index as HTML
+  Rendered text template (0.0ms)
+Completed 200 OK in 7ms (Views: 6.4ms | ActiveRecord: 0.0ms)
+  [1m[36m (0.1ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36m (0.0ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (1.2ms)[0m  INSERT INTO "categories" ("created_at", "name", "updated_at") VALUES (?, ?, ?)  [["created_at", "2014-08-15 15:08:15.534749"], ["name", "category"], ["updated_at", "2014-08-15 15:08:15.534749"]]
+  [1m[36m (0.0ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "requirements" ("created_at", "mode", "name", "updated_at", "value") VALUES (?, ?, ?, ?, ?)[0m  [["created_at", "2014-08-15 15:08:15.560207"], ["mode", "rank"], ["name", "req"], ["updated_at", "2014-08-15 15:08:15.560207"], ["value", "val"]]
+  [1m[35m (0.0ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "edges" ("category_id", "created_at", "description", "name", "updated_at") VALUES (?, ?, ?, ?, ?)  [["category_id", 1], ["created_at", "2014-08-15 15:08:15.605632"], ["description", "descr"], ["name", "name"], ["updated_at", "2014-08-15 15:08:15.605632"]]
+  [1m[36m (0.1ms)[0m  [1mROLLBACK TO SAVEPOINT active_record_1[0m
+  [1m[35m (0.5ms)[0m  rollback transaction
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+Processing by Api::EdgesController#index as HTML
+  Rendered text template (0.0ms)
+Completed 200 OK in 6ms (Views: 6.0ms | ActiveRecord: 0.0ms)
+  [1m[36m (0.1ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36m (0.0ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (1.2ms)[0m  INSERT INTO "categories" ("created_at", "name", "updated_at") VALUES (?, ?, ?)  [["created_at", "2014-08-15 15:13:51.321115"], ["name", "category"], ["updated_at", "2014-08-15 15:13:51.321115"]]
+  [1m[36m (0.0ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "requirements" ("created_at", "mode", "name", "updated_at", "value") VALUES (?, ?, ?, ?, ?)[0m  [["created_at", "2014-08-15 15:13:51.351256"], ["mode", "rank"], ["name", "req"], ["updated_at", "2014-08-15 15:13:51.351256"], ["value", "val"]]
+  [1m[35m (0.0ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "edges" ("category_id", "created_at", "description", "name", "updated_at") VALUES (?, ?, ?, ?, ?)  [["category_id", 1], ["created_at", "2014-08-15 15:13:51.377670"], ["description", "descr"], ["name", "name"], ["updated_at", "2014-08-15 15:13:51.377670"]]
+  [1m[36mSQL (0.1ms)[0m  [1mUPDATE "requirements" SET "edge_id" = ?, "updated_at" = ? WHERE "requirements"."id" = 1[0m  [["edge_id", 1], ["updated_at", "2014-08-15 15:13:51.378736"]]
+  [1m[35m (0.0ms)[0m  RELEASE SAVEPOINT active_record_1
+Processing by Api::EdgesController#index as HTML
+Completed 200 OK in 0ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+  [1m[36m (0.6ms)[0m  [1mrollback transaction[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+Processing by Api::EdgesController#index as HTML
+  [1m[36mEdge Load (0.1ms)[0m  [1mSELECT "edges".* FROM "edges"[0m
+Completed 200 OK in 7ms (Views: 0.5ms | ActiveRecord: 0.1ms)
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (1.2ms)[0m  [1mINSERT INTO "categories" ("created_at", "name", "updated_at") VALUES (?, ?, ?)[0m  [["created_at", "2014-08-15 15:15:57.854831"], ["name", "category"], ["updated_at", "2014-08-15 15:15:57.854831"]]
+  [1m[35m (0.0ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "requirements" ("created_at", "mode", "name", "updated_at", "value") VALUES (?, ?, ?, ?, ?)  [["created_at", "2014-08-15 15:15:57.885858"], ["mode", "rank"], ["name", "req"], ["updated_at", "2014-08-15 15:15:57.885858"], ["value", "val"]]
+  [1m[36m (0.0ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "edges" ("category_id", "created_at", "description", "name", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["category_id", 1], ["created_at", "2014-08-15 15:15:57.904570"], ["description", "descr"], ["name", "name"], ["updated_at", "2014-08-15 15:15:57.904570"]]
+  [1m[35mSQL (0.1ms)[0m  UPDATE "requirements" SET "edge_id" = ?, "updated_at" = ? WHERE "requirements"."id" = 1  [["edge_id", 1], ["updated_at", "2014-08-15 15:15:57.905568"]]
+  [1m[36m (0.0ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+Processing by Api::EdgesController#index as HTML
+  [1m[35mEdge Load (0.1ms)[0m  SELECT "edges".* FROM "edges"
+Completed 500 Internal Server Error in 3ms
+  [1m[36m (0.6ms)[0m  [1mrollback transaction[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.0ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (1.2ms)[0m  INSERT INTO "categories" ("created_at", "name", "updated_at") VALUES (?, ?, ?)  [["created_at", "2014-08-15 15:20:32.727559"], ["name", "category"], ["updated_at", "2014-08-15 15:20:32.727559"]]
+  [1m[36m (0.0ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "requirements" ("created_at", "mode", "name", "updated_at", "value") VALUES (?, ?, ?, ?, ?)[0m  [["created_at", "2014-08-15 15:20:32.737326"], ["mode", "rank"], ["name", "req"], ["updated_at", "2014-08-15 15:20:32.737326"], ["value", "val"]]
+  [1m[35m (0.0ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "edges" ("category_id", "created_at", "description", "name", "updated_at") VALUES (?, ?, ?, ?, ?)  [["category_id", 1], ["created_at", "2014-08-15 15:20:32.783921"], ["description", "descr"], ["name", "name"], ["updated_at", "2014-08-15 15:20:32.783921"]]
+  [1m[36mSQL (0.1ms)[0m  [1mUPDATE "requirements" SET "edge_id" = ?, "updated_at" = ? WHERE "requirements"."id" = 1[0m  [["edge_id", 1], ["updated_at", "2014-08-15 15:20:32.784857"]]
+  [1m[35m (0.0ms)[0m  RELEASE SAVEPOINT active_record_1
+Processing by Api::EdgesController#index as HTML
+  [1m[36mEdge Load (0.1ms)[0m  [1mSELECT "edges".* FROM "edges"[0m
+  [1m[35mCategory Load (0.1ms)[0m  SELECT  "categories".* FROM "categories"  WHERE "categories"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mRequirement Load (0.1ms)[0m  [1mSELECT "requirements".* FROM "requirements"  WHERE "requirements"."edge_id" = ?[0m  [["edge_id", 1]]
+Completed 200 OK in 5ms (Views: 4.8ms | ActiveRecord: 0.3ms)
+  [1m[35m (0.6ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+Processing by Api::EdgesController#index as HTML
+  [1m[35mEdge Load (0.1ms)[0m  SELECT "edges".* FROM "edges"
+Completed 200 OK in 1ms (Views: 0.5ms | ActiveRecord: 0.1ms)
+  [1m[36m (0.1ms)[0m  [1mrollback transaction[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.0ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (1.2ms)[0m  INSERT INTO "categories" ("created_at", "name", "updated_at") VALUES (?, ?, ?)  [["created_at", "2014-08-15 15:22:44.020268"], ["name", "category"], ["updated_at", "2014-08-15 15:22:44.020268"]]
+  [1m[36m (0.0ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "requirements" ("created_at", "mode", "name", "updated_at", "value") VALUES (?, ?, ?, ?, ?)[0m  [["created_at", "2014-08-15 15:22:44.030060"], ["mode", "rank"], ["name", "req"], ["updated_at", "2014-08-15 15:22:44.030060"], ["value", "val"]]
+  [1m[35m (0.0ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "edges" ("category_id", "created_at", "description", "name", "updated_at") VALUES (?, ?, ?, ?, ?)  [["category_id", 1], ["created_at", "2014-08-15 15:22:44.074510"], ["description", "descr"], ["name", "name"], ["updated_at", "2014-08-15 15:22:44.074510"]]
+  [1m[36mSQL (0.1ms)[0m  [1mUPDATE "requirements" SET "edge_id" = ?, "updated_at" = ? WHERE "requirements"."id" = 1[0m  [["edge_id", 1], ["updated_at", "2014-08-15 15:22:44.075457"]]
+  [1m[35m (0.0ms)[0m  RELEASE SAVEPOINT active_record_1
+Processing by Api::EdgesController#index as HTML
+  [1m[36mEdge Load (0.1ms)[0m  [1mSELECT "edges".* FROM "edges"[0m
+  [1m[35mCategory Load (0.1ms)[0m  SELECT  "categories".* FROM "categories"  WHERE "categories"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mRequirement Load (0.1ms)[0m  [1mSELECT "requirements".* FROM "requirements"  WHERE "requirements"."edge_id" = ?[0m  [["edge_id", 1]]
+Completed 200 OK in 5ms (Views: 4.4ms | ActiveRecord: 0.3ms)
+  [1m[35m (0.7ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+Processing by Api::EdgesController#index as HTML
+  [1m[35mEdge Load (0.2ms)[0m  SELECT "edges".* FROM "edges"
+Completed 200 OK in 1ms (Views: 0.4ms | ActiveRecord: 0.1ms)
+  [1m[36m (0.1ms)[0m  [1mrollback transaction[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+Processing by Api::EdgesController#index as HTML
+  [1m[36mEdge Load (0.2ms)[0m  [1mSELECT "edges".* FROM "edges"[0m
+Completed 200 OK in 7ms (Views: 0.5ms | ActiveRecord: 0.2ms)
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (13.3ms)[0m  [1mINSERT INTO "categories" ("created_at", "name", "updated_at") VALUES (?, ?, ?)[0m  [["created_at", "2014-08-15 16:47:11.220863"], ["name", "category"], ["updated_at", "2014-08-15 16:47:11.220863"]]
+  [1m[35m (0.0ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "requirements" ("created_at", "mode", "name", "updated_at", "value") VALUES (?, ?, ?, ?, ?)  [["created_at", "2014-08-15 16:47:11.261029"], ["mode", "rank"], ["name", "req"], ["updated_at", "2014-08-15 16:47:11.261029"], ["value", "val"]]
+  [1m[36m (0.0ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "edges" ("category_id", "created_at", "description", "name", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["category_id", 1], ["created_at", "2014-08-15 16:47:11.291455"], ["description", "descr"], ["name", "name"], ["updated_at", "2014-08-15 16:47:11.291455"]]
+  [1m[35mSQL (0.1ms)[0m  UPDATE "requirements" SET "edge_id" = ?, "updated_at" = ? WHERE "requirements"."id" = 1  [["edge_id", 1], ["updated_at", "2014-08-15 16:47:11.292410"]]
+  [1m[36m (0.0ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+Processing by Api::EdgesController#index as HTML
+  [1m[35mEdge Load (0.1ms)[0m  SELECT "edges".* FROM "edges"
+  [1m[36mCategory Load (0.1ms)[0m  [1mSELECT  "categories".* FROM "categories"  WHERE "categories"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35mRequirement Load (0.1ms)[0m  SELECT "requirements".* FROM "requirements"  WHERE "requirements"."edge_id" = ?  [["edge_id", 1]]
+Completed 200 OK in 5ms (Views: 4.2ms | ActiveRecord: 0.3ms)
+  [1m[36m (0.7ms)[0m  [1mrollback transaction[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.0ms)[0m  [1mrollback transaction[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.0ms)[0m  [1mrollback transaction[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.0ms)[0m  [1mrollback transaction[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.0ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (16.2ms)[0m  INSERT INTO "categories" ("created_at", "name", "updated_at") VALUES (?, ?, ?)  [["created_at", "2014-08-15 21:24:32.685760"], ["name", "category"], ["updated_at", "2014-08-15 21:24:32.685760"]]
+  [1m[36m (0.0ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "edges" ("category_id", "created_at", "description", "name", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["category_id", 1], ["created_at", "2014-08-15 21:24:32.727913"], ["description", "desc 1"], ["name", "edge 1"], ["updated_at", "2014-08-15 21:24:32.727913"]]
+  [1m[35m (0.0ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.1ms)[0m  INSERT INTO "requirements" ("created_at", "edge_id", "mode", "name", "updated_at", "value") VALUES (?, ?, ?, ?, ?, ?)  [["created_at", "2014-08-15 21:24:32.737408"], ["edge_id", 1], ["mode", "mode"], ["name", "req"], ["updated_at", "2014-08-15 21:24:32.737408"], ["value", "val"]]
+  [1m[36m (0.0ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.1ms)[0m  [1mINSERT INTO "requirements" ("created_at", "edge_id", "mode", "name", "updated_at", "value") VALUES (?, ?, ?, ?, ?, ?)[0m  [["created_at", "2014-08-15 21:24:32.739084"], ["edge_id", 1], ["mode", "mode"], ["name", "req"], ["updated_at", "2014-08-15 21:24:32.739084"], ["value", "val"]]
+  [1m[35m (0.0ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.0ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.1ms)[0m  INSERT INTO "categories" ("created_at", "name", "updated_at") VALUES (?, ?, ?)  [["created_at", "2014-08-15 21:24:32.740547"], ["name", "category"], ["updated_at", "2014-08-15 21:24:32.740547"]]
+  [1m[36m (0.0ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.0ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.1ms)[0m  [1mINSERT INTO "edges" ("category_id", "created_at", "description", "name", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["category_id", 2], ["created_at", "2014-08-15 21:24:32.741421"], ["description", "desc 2"], ["name", "edge 2"], ["updated_at", "2014-08-15 21:24:32.741421"]]
+  [1m[35m (0.0ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.0ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.1ms)[0m  INSERT INTO "requirements" ("created_at", "edge_id", "mode", "name", "updated_at", "value") VALUES (?, ?, ?, ?, ?, ?)  [["created_at", "2014-08-15 21:24:32.742649"], ["edge_id", 2], ["mode", "mode"], ["name", "req"], ["updated_at", "2014-08-15 21:24:32.742649"], ["value", "val"]]
+  [1m[36m (0.0ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.0ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.1ms)[0m  [1mINSERT INTO "requirements" ("created_at", "edge_id", "mode", "name", "updated_at", "value") VALUES (?, ?, ?, ?, ?, ?)[0m  [["created_at", "2014-08-15 21:24:32.743960"], ["edge_id", 2], ["mode", "mode"], ["name", "req"], ["updated_at", "2014-08-15 21:24:32.743960"], ["value", "val"]]
+  [1m[35m (0.0ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.0ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.1ms)[0m  INSERT INTO "categories" ("created_at", "name", "updated_at") VALUES (?, ?, ?)  [["created_at", "2014-08-15 21:24:32.745141"], ["name", "category"], ["updated_at", "2014-08-15 21:24:32.745141"]]
+  [1m[36m (0.0ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.0ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.1ms)[0m  [1mINSERT INTO "edges" ("category_id", "created_at", "description", "name", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["category_id", 3], ["created_at", "2014-08-15 21:24:32.745956"], ["description", "desc 3"], ["name", "edge 3"], ["updated_at", "2014-08-15 21:24:32.745956"]]
+  [1m[35m (0.0ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.0ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.1ms)[0m  INSERT INTO "requirements" ("created_at", "edge_id", "mode", "name", "updated_at", "value") VALUES (?, ?, ?, ?, ?, ?)  [["created_at", "2014-08-15 21:24:32.747145"], ["edge_id", 3], ["mode", "mode"], ["name", "req"], ["updated_at", "2014-08-15 21:24:32.747145"], ["value", "val"]]
+  [1m[36m (0.0ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.0ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.1ms)[0m  [1mINSERT INTO "requirements" ("created_at", "edge_id", "mode", "name", "updated_at", "value") VALUES (?, ?, ?, ?, ?, ?)[0m  [["created_at", "2014-08-15 21:24:32.748376"], ["edge_id", 3], ["mode", "mode"], ["name", "req"], ["updated_at", "2014-08-15 21:24:32.748376"], ["value", "val"]]
+  [1m[35m (0.0ms)[0m  RELEASE SAVEPOINT active_record_1
+Started GET "/edges" for 127.0.0.1 at 2014-08-15 15:24:32 -0600
+  [1m[36m (0.6ms)[0m  [1mrollback transaction[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (15.7ms)[0m  INSERT INTO "categories" ("created_at", "name", "updated_at") VALUES (?, ?, ?)  [["created_at", "2014-08-18 13:21:43.029418"], ["name", "category"], ["updated_at", "2014-08-18 13:21:43.029418"]]
+  [1m[36m (0.0ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "edges" ("category_id", "created_at", "description", "name", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["category_id", 1], ["created_at", "2014-08-18 13:21:43.069361"], ["description", "desc 1"], ["name", "edge 1"], ["updated_at", "2014-08-18 13:21:43.069361"]]
+  [1m[35m (0.0ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.1ms)[0m  INSERT INTO "requirements" ("created_at", "edge_id", "mode", "name", "updated_at", "value") VALUES (?, ?, ?, ?, ?, ?)  [["created_at", "2014-08-18 13:21:43.078913"], ["edge_id", 1], ["mode", "mode"], ["name", "req"], ["updated_at", "2014-08-18 13:21:43.078913"], ["value", "val"]]
+  [1m[36m (0.0ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.0ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.1ms)[0m  [1mINSERT INTO "requirements" ("created_at", "edge_id", "mode", "name", "updated_at", "value") VALUES (?, ?, ?, ?, ?, ?)[0m  [["created_at", "2014-08-18 13:21:43.080461"], ["edge_id", 1], ["mode", "mode"], ["name", "req"], ["updated_at", "2014-08-18 13:21:43.080461"], ["value", "val"]]
+  [1m[35m (0.0ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.0ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.1ms)[0m  INSERT INTO "categories" ("created_at", "name", "updated_at") VALUES (?, ?, ?)  [["created_at", "2014-08-18 13:21:43.081681"], ["name", "category"], ["updated_at", "2014-08-18 13:21:43.081681"]]
+  [1m[36m (0.0ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.0ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.1ms)[0m  [1mINSERT INTO "edges" ("category_id", "created_at", "description", "name", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["category_id", 2], ["created_at", "2014-08-18 13:21:43.082550"], ["description", "desc 2"], ["name", "edge 2"], ["updated_at", "2014-08-18 13:21:43.082550"]]
+  [1m[35m (0.0ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.0ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.1ms)[0m  INSERT INTO "requirements" ("created_at", "edge_id", "mode", "name", "updated_at", "value") VALUES (?, ?, ?, ?, ?, ?)  [["created_at", "2014-08-18 13:21:43.083768"], ["edge_id", 2], ["mode", "mode"], ["name", "req"], ["updated_at", "2014-08-18 13:21:43.083768"], ["value", "val"]]
+  [1m[36m (0.0ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.0ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.1ms)[0m  [1mINSERT INTO "requirements" ("created_at", "edge_id", "mode", "name", "updated_at", "value") VALUES (?, ?, ?, ?, ?, ?)[0m  [["created_at", "2014-08-18 13:21:43.085242"], ["edge_id", 2], ["mode", "mode"], ["name", "req"], ["updated_at", "2014-08-18 13:21:43.085242"], ["value", "val"]]
+  [1m[35m (0.0ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.0ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.1ms)[0m  INSERT INTO "categories" ("created_at", "name", "updated_at") VALUES (?, ?, ?)  [["created_at", "2014-08-18 13:21:43.086552"], ["name", "category"], ["updated_at", "2014-08-18 13:21:43.086552"]]
+  [1m[36m (0.0ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.0ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.1ms)[0m  [1mINSERT INTO "edges" ("category_id", "created_at", "description", "name", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["category_id", 3], ["created_at", "2014-08-18 13:21:43.087406"], ["description", "desc 3"], ["name", "edge 3"], ["updated_at", "2014-08-18 13:21:43.087406"]]
+  [1m[35m (0.0ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.0ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.1ms)[0m  INSERT INTO "requirements" ("created_at", "edge_id", "mode", "name", "updated_at", "value") VALUES (?, ?, ?, ?, ?, ?)  [["created_at", "2014-08-18 13:21:43.088648"], ["edge_id", 3], ["mode", "mode"], ["name", "req"], ["updated_at", "2014-08-18 13:21:43.088648"], ["value", "val"]]
+  [1m[36m (0.0ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.0ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.1ms)[0m  [1mINSERT INTO "requirements" ("created_at", "edge_id", "mode", "name", "updated_at", "value") VALUES (?, ?, ?, ?, ?, ?)[0m  [["created_at", "2014-08-18 13:21:43.089896"], ["edge_id", 3], ["mode", "mode"], ["name", "req"], ["updated_at", "2014-08-18 13:21:43.089896"], ["value", "val"]]
+  [1m[35m (0.0ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.8ms)[0m  [1mrollback transaction[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.0ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (1.4ms)[0m  INSERT INTO "categories" ("created_at", "name", "updated_at") VALUES (?, ?, ?)  [["created_at", "2014-08-18 13:31:55.282610"], ["name", "category"], ["updated_at", "2014-08-18 13:31:55.282610"]]
+  [1m[36m (0.0ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.8ms)[0m  [1mINSERT INTO "edges" ("category_id", "created_at", "description", "name", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["category_id", 1], ["created_at", "2014-08-18 13:31:55.293523"], ["description", "desc 1"], ["name", "edge 1"], ["updated_at", "2014-08-18 13:31:55.293523"]]
+  [1m[35m (0.0ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.1ms)[0m  INSERT INTO "requirements" ("created_at", "edge_id", "mode", "name", "updated_at", "value") VALUES (?, ?, ?, ?, ?, ?)  [["created_at", "2014-08-18 13:31:55.303944"], ["edge_id", 1], ["mode", "mode"], ["name", "req"], ["updated_at", "2014-08-18 13:31:55.303944"], ["value", "val"]]
+  [1m[36m (0.0ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.0ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.1ms)[0m  [1mINSERT INTO "requirements" ("created_at", "edge_id", "mode", "name", "updated_at", "value") VALUES (?, ?, ?, ?, ?, ?)[0m  [["created_at", "2014-08-18 13:31:55.305611"], ["edge_id", 1], ["mode", "mode"], ["name", "req"], ["updated_at", "2014-08-18 13:31:55.305611"], ["value", "val"]]
+  [1m[35m (0.0ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.0ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.1ms)[0m  INSERT INTO "categories" ("created_at", "name", "updated_at") VALUES (?, ?, ?)  [["created_at", "2014-08-18 13:31:55.306860"], ["name", "category"], ["updated_at", "2014-08-18 13:31:55.306860"]]
+  [1m[36m (0.0ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.0ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.1ms)[0m  [1mINSERT INTO "edges" ("category_id", "created_at", "description", "name", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["category_id", 2], ["created_at", "2014-08-18 13:31:55.307657"], ["description", "desc 2"], ["name", "edge 2"], ["updated_at", "2014-08-18 13:31:55.307657"]]
+  [1m[35m (0.0ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.0ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.1ms)[0m  INSERT INTO "requirements" ("created_at", "edge_id", "mode", "name", "updated_at", "value") VALUES (?, ?, ?, ?, ?, ?)  [["created_at", "2014-08-18 13:31:55.308876"], ["edge_id", 2], ["mode", "mode"], ["name", "req"], ["updated_at", "2014-08-18 13:31:55.308876"], ["value", "val"]]
+  [1m[36m (0.0ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.0ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.1ms)[0m  [1mINSERT INTO "requirements" ("created_at", "edge_id", "mode", "name", "updated_at", "value") VALUES (?, ?, ?, ?, ?, ?)[0m  [["created_at", "2014-08-18 13:31:55.310210"], ["edge_id", 2], ["mode", "mode"], ["name", "req"], ["updated_at", "2014-08-18 13:31:55.310210"], ["value", "val"]]
+  [1m[35m (0.0ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.0ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.1ms)[0m  INSERT INTO "categories" ("created_at", "name", "updated_at") VALUES (?, ?, ?)  [["created_at", "2014-08-18 13:31:55.311464"], ["name", "category"], ["updated_at", "2014-08-18 13:31:55.311464"]]
+  [1m[36m (0.0ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.0ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.1ms)[0m  [1mINSERT INTO "edges" ("category_id", "created_at", "description", "name", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["category_id", 3], ["created_at", "2014-08-18 13:31:55.312280"], ["description", "desc 3"], ["name", "edge 3"], ["updated_at", "2014-08-18 13:31:55.312280"]]
+  [1m[35m (0.0ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.0ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.1ms)[0m  INSERT INTO "requirements" ("created_at", "edge_id", "mode", "name", "updated_at", "value") VALUES (?, ?, ?, ?, ?, ?)  [["created_at", "2014-08-18 13:31:55.313481"], ["edge_id", 3], ["mode", "mode"], ["name", "req"], ["updated_at", "2014-08-18 13:31:55.313481"], ["value", "val"]]
+  [1m[36m (0.0ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.0ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.1ms)[0m  [1mINSERT INTO "requirements" ("created_at", "edge_id", "mode", "name", "updated_at", "value") VALUES (?, ?, ?, ?, ?, ?)[0m  [["created_at", "2014-08-18 13:31:55.314794"], ["edge_id", 3], ["mode", "mode"], ["name", "req"], ["updated_at", "2014-08-18 13:31:55.314794"], ["value", "val"]]
+  [1m[35m (0.0ms)[0m  RELEASE SAVEPOINT active_record_1
+Started GET "/" for 127.0.0.1 at 2014-08-18 07:32:00 -0600
+  [1m[36m (0.6ms)[0m  [1mrollback transaction[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.0ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (1.4ms)[0m  INSERT INTO "categories" ("created_at", "name", "updated_at") VALUES (?, ?, ?)  [["created_at", "2014-08-18 13:32:54.684719"], ["name", "category"], ["updated_at", "2014-08-18 13:32:54.684719"]]
+  [1m[36m (0.0ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.4ms)[0m  [1mINSERT INTO "edges" ("category_id", "created_at", "description", "name", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["category_id", 1], ["created_at", "2014-08-18 13:32:54.695429"], ["description", "desc 1"], ["name", "edge 1"], ["updated_at", "2014-08-18 13:32:54.695429"]]
+  [1m[35m (0.0ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.1ms)[0m  INSERT INTO "requirements" ("created_at", "edge_id", "mode", "name", "updated_at", "value") VALUES (?, ?, ?, ?, ?, ?)  [["created_at", "2014-08-18 13:32:54.704905"], ["edge_id", 1], ["mode", "mode"], ["name", "req"], ["updated_at", "2014-08-18 13:32:54.704905"], ["value", "val"]]
+  [1m[36m (0.0ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.0ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.1ms)[0m  [1mINSERT INTO "requirements" ("created_at", "edge_id", "mode", "name", "updated_at", "value") VALUES (?, ?, ?, ?, ?, ?)[0m  [["created_at", "2014-08-18 13:32:54.706512"], ["edge_id", 1], ["mode", "mode"], ["name", "req"], ["updated_at", "2014-08-18 13:32:54.706512"], ["value", "val"]]
+  [1m[35m (0.0ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.0ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.1ms)[0m  INSERT INTO "categories" ("created_at", "name", "updated_at") VALUES (?, ?, ?)  [["created_at", "2014-08-18 13:32:54.707769"], ["name", "category"], ["updated_at", "2014-08-18 13:32:54.707769"]]
+  [1m[36m (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.0ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.1ms)[0m  [1mINSERT INTO "edges" ("category_id", "created_at", "description", "name", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["category_id", 2], ["created_at", "2014-08-18 13:32:54.708617"], ["description", "desc 2"], ["name", "edge 2"], ["updated_at", "2014-08-18 13:32:54.708617"]]
+  [1m[35m (0.0ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.0ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.1ms)[0m  INSERT INTO "requirements" ("created_at", "edge_id", "mode", "name", "updated_at", "value") VALUES (?, ?, ?, ?, ?, ?)  [["created_at", "2014-08-18 13:32:54.709833"], ["edge_id", 2], ["mode", "mode"], ["name", "req"], ["updated_at", "2014-08-18 13:32:54.709833"], ["value", "val"]]
+  [1m[36m (0.0ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.0ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.1ms)[0m  [1mINSERT INTO "requirements" ("created_at", "edge_id", "mode", "name", "updated_at", "value") VALUES (?, ?, ?, ?, ?, ?)[0m  [["created_at", "2014-08-18 13:32:54.711246"], ["edge_id", 2], ["mode", "mode"], ["name", "req"], ["updated_at", "2014-08-18 13:32:54.711246"], ["value", "val"]]
+  [1m[35m (0.0ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.0ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.1ms)[0m  INSERT INTO "categories" ("created_at", "name", "updated_at") VALUES (?, ?, ?)  [["created_at", "2014-08-18 13:32:54.712583"], ["name", "category"], ["updated_at", "2014-08-18 13:32:54.712583"]]
+  [1m[36m (0.0ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.0ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.1ms)[0m  [1mINSERT INTO "edges" ("category_id", "created_at", "description", "name", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["category_id", 3], ["created_at", "2014-08-18 13:32:54.713423"], ["description", "desc 3"], ["name", "edge 3"], ["updated_at", "2014-08-18 13:32:54.713423"]]
+  [1m[35m (0.0ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.0ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.1ms)[0m  INSERT INTO "requirements" ("created_at", "edge_id", "mode", "name", "updated_at", "value") VALUES (?, ?, ?, ?, ?, ?)  [["created_at", "2014-08-18 13:32:54.714707"], ["edge_id", 3], ["mode", "mode"], ["name", "req"], ["updated_at", "2014-08-18 13:32:54.714707"], ["value", "val"]]
+  [1m[36m (0.0ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.0ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.1ms)[0m  [1mINSERT INTO "requirements" ("created_at", "edge_id", "mode", "name", "updated_at", "value") VALUES (?, ?, ?, ?, ?, ?)[0m  [["created_at", "2014-08-18 13:32:54.716069"], ["edge_id", 3], ["mode", "mode"], ["name", "req"], ["updated_at", "2014-08-18 13:32:54.716069"], ["value", "val"]]
+  [1m[35m (0.0ms)[0m  RELEASE SAVEPOINT active_record_1
+Started GET "/edges" for 127.0.0.1 at 2014-08-18 07:32:56 -0600
+  [1m[36m (0.6ms)[0m  [1mrollback transaction[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.0ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (1.4ms)[0m  INSERT INTO "categories" ("created_at", "name", "updated_at") VALUES (?, ?, ?)  [["created_at", "2014-08-18 13:35:55.182263"], ["name", "category"], ["updated_at", "2014-08-18 13:35:55.182263"]]
+  [1m[36m (0.0ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "edges" ("category_id", "created_at", "description", "name", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["category_id", 1], ["created_at", "2014-08-18 13:35:55.194167"], ["description", "desc 1"], ["name", "edge 1"], ["updated_at", "2014-08-18 13:35:55.194167"]]
+  [1m[35m (0.0ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.1ms)[0m  INSERT INTO "requirements" ("created_at", "edge_id", "mode", "name", "updated_at", "value") VALUES (?, ?, ?, ?, ?, ?)  [["created_at", "2014-08-18 13:35:55.203880"], ["edge_id", 1], ["mode", "mode"], ["name", "req"], ["updated_at", "2014-08-18 13:35:55.203880"], ["value", "val"]]
+  [1m[36m (0.0ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.0ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.1ms)[0m  [1mINSERT INTO "requirements" ("created_at", "edge_id", "mode", "name", "updated_at", "value") VALUES (?, ?, ?, ?, ?, ?)[0m  [["created_at", "2014-08-18 13:35:55.205565"], ["edge_id", 1], ["mode", "mode"], ["name", "req"], ["updated_at", "2014-08-18 13:35:55.205565"], ["value", "val"]]
+  [1m[35m (0.0ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.0ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.1ms)[0m  INSERT INTO "categories" ("created_at", "name", "updated_at") VALUES (?, ?, ?)  [["created_at", "2014-08-18 13:35:55.206928"], ["name", "category"], ["updated_at", "2014-08-18 13:35:55.206928"]]
+  [1m[36m (0.0ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.0ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.1ms)[0m  [1mINSERT INTO "edges" ("category_id", "created_at", "description", "name", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["category_id", 2], ["created_at", "2014-08-18 13:35:55.207739"], ["description", "desc 2"], ["name", "edge 2"], ["updated_at", "2014-08-18 13:35:55.207739"]]
+  [1m[35m (0.0ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.0ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.1ms)[0m  INSERT INTO "requirements" ("created_at", "edge_id", "mode", "name", "updated_at", "value") VALUES (?, ?, ?, ?, ?, ?)  [["created_at", "2014-08-18 13:35:55.208934"], ["edge_id", 2], ["mode", "mode"], ["name", "req"], ["updated_at", "2014-08-18 13:35:55.208934"], ["value", "val"]]
+  [1m[36m (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.0ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.1ms)[0m  [1mINSERT INTO "requirements" ("created_at", "edge_id", "mode", "name", "updated_at", "value") VALUES (?, ?, ?, ?, ?, ?)[0m  [["created_at", "2014-08-18 13:35:55.210232"], ["edge_id", 2], ["mode", "mode"], ["name", "req"], ["updated_at", "2014-08-18 13:35:55.210232"], ["value", "val"]]
+  [1m[35m (0.0ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.0ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.0ms)[0m  INSERT INTO "categories" ("created_at", "name", "updated_at") VALUES (?, ?, ?)  [["created_at", "2014-08-18 13:35:55.211421"], ["name", "category"], ["updated_at", "2014-08-18 13:35:55.211421"]]
+  [1m[36m (0.0ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.0ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.1ms)[0m  [1mINSERT INTO "edges" ("category_id", "created_at", "description", "name", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["category_id", 3], ["created_at", "2014-08-18 13:35:55.212188"], ["description", "desc 3"], ["name", "edge 3"], ["updated_at", "2014-08-18 13:35:55.212188"]]
+  [1m[35m (0.0ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.0ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.1ms)[0m  INSERT INTO "requirements" ("created_at", "edge_id", "mode", "name", "updated_at", "value") VALUES (?, ?, ?, ?, ?, ?)  [["created_at", "2014-08-18 13:35:55.213325"], ["edge_id", 3], ["mode", "mode"], ["name", "req"], ["updated_at", "2014-08-18 13:35:55.213325"], ["value", "val"]]
+  [1m[36m (0.0ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.0ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.1ms)[0m  [1mINSERT INTO "requirements" ("created_at", "edge_id", "mode", "name", "updated_at", "value") VALUES (?, ?, ?, ?, ?, ?)[0m  [["created_at", "2014-08-18 13:35:55.214648"], ["edge_id", 3], ["mode", "mode"], ["name", "req"], ["updated_at", "2014-08-18 13:35:55.214648"], ["value", "val"]]
+  [1m[35m (0.0ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36mEdge Load (0.1ms)[0m  [1mSELECT "edges".* FROM "edges"[0m
+Started GET "/" for 127.0.0.1 at 2014-08-18 07:35:57 -0600
+  [1m[35m (0.6ms)[0m  rollback transaction
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.0ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (1.3ms)[0m  INSERT INTO "categories" ("created_at", "name", "updated_at") VALUES (?, ?, ?)  [["created_at", "2014-08-18 13:39:24.967555"], ["name", "category"], ["updated_at", "2014-08-18 13:39:24.967555"]]
+  [1m[36m (0.0ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "edges" ("category_id", "created_at", "description", "name", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["category_id", 1], ["created_at", "2014-08-18 13:39:24.978237"], ["description", "desc 1"], ["name", "edge 1"], ["updated_at", "2014-08-18 13:39:24.978237"]]
+  [1m[35m (0.0ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.1ms)[0m  INSERT INTO "requirements" ("created_at", "edge_id", "mode", "name", "updated_at", "value") VALUES (?, ?, ?, ?, ?, ?)  [["created_at", "2014-08-18 13:39:24.987800"], ["edge_id", 1], ["mode", "mode"], ["name", "req"], ["updated_at", "2014-08-18 13:39:24.987800"], ["value", "val"]]
+  [1m[36m (0.0ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.0ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.1ms)[0m  [1mINSERT INTO "requirements" ("created_at", "edge_id", "mode", "name", "updated_at", "value") VALUES (?, ?, ?, ?, ?, ?)[0m  [["created_at", "2014-08-18 13:39:24.989479"], ["edge_id", 1], ["mode", "mode"], ["name", "req"], ["updated_at", "2014-08-18 13:39:24.989479"], ["value", "val"]]
+  [1m[35m (0.0ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.0ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.1ms)[0m  INSERT INTO "categories" ("created_at", "name", "updated_at") VALUES (?, ?, ?)  [["created_at", "2014-08-18 13:39:24.990883"], ["name", "category"], ["updated_at", "2014-08-18 13:39:24.990883"]]
+  [1m[36m (0.0ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.0ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.1ms)[0m  [1mINSERT INTO "edges" ("category_id", "created_at", "description", "name", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["category_id", 2], ["created_at", "2014-08-18 13:39:24.991771"], ["description", "desc 2"], ["name", "edge 2"], ["updated_at", "2014-08-18 13:39:24.991771"]]
+  [1m[35m (0.0ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.0ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.1ms)[0m  INSERT INTO "requirements" ("created_at", "edge_id", "mode", "name", "updated_at", "value") VALUES (?, ?, ?, ?, ?, ?)  [["created_at", "2014-08-18 13:39:24.993053"], ["edge_id", 2], ["mode", "mode"], ["name", "req"], ["updated_at", "2014-08-18 13:39:24.993053"], ["value", "val"]]
+  [1m[36m (0.0ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.0ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.1ms)[0m  [1mINSERT INTO "requirements" ("created_at", "edge_id", "mode", "name", "updated_at", "value") VALUES (?, ?, ?, ?, ?, ?)[0m  [["created_at", "2014-08-18 13:39:24.994407"], ["edge_id", 2], ["mode", "mode"], ["name", "req"], ["updated_at", "2014-08-18 13:39:24.994407"], ["value", "val"]]
+  [1m[35m (0.0ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.0ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.1ms)[0m  INSERT INTO "categories" ("created_at", "name", "updated_at") VALUES (?, ?, ?)  [["created_at", "2014-08-18 13:39:24.995634"], ["name", "category"], ["updated_at", "2014-08-18 13:39:24.995634"]]
+  [1m[36m (0.0ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.0ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.1ms)[0m  [1mINSERT INTO "edges" ("category_id", "created_at", "description", "name", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["category_id", 3], ["created_at", "2014-08-18 13:39:24.996439"], ["description", "desc 3"], ["name", "edge 3"], ["updated_at", "2014-08-18 13:39:24.996439"]]
+  [1m[35m (0.0ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.0ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.1ms)[0m  INSERT INTO "requirements" ("created_at", "edge_id", "mode", "name", "updated_at", "value") VALUES (?, ?, ?, ?, ?, ?)  [["created_at", "2014-08-18 13:39:24.997620"], ["edge_id", 3], ["mode", "mode"], ["name", "req"], ["updated_at", "2014-08-18 13:39:24.997620"], ["value", "val"]]
+  [1m[36m (0.0ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.1ms)[0m  [1mINSERT INTO "requirements" ("created_at", "edge_id", "mode", "name", "updated_at", "value") VALUES (?, ?, ?, ?, ?, ?)[0m  [["created_at", "2014-08-18 13:39:24.998893"], ["edge_id", 3], ["mode", "mode"], ["name", "req"], ["updated_at", "2014-08-18 13:39:24.998893"], ["value", "val"]]
+  [1m[35m (0.0ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36mEdge Load (0.1ms)[0m  [1mSELECT "edges".* FROM "edges"[0m
+Started GET "/" for 127.0.0.1 at 2014-08-18 07:39:25 -0600
+  [1m[35m (0.7ms)[0m  rollback transaction
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (1.3ms)[0m  INSERT INTO "categories" ("created_at", "name", "updated_at") VALUES (?, ?, ?)  [["created_at", "2014-08-18 13:40:22.528568"], ["name", "category"], ["updated_at", "2014-08-18 13:40:22.528568"]]
+  [1m[36m (0.0ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "edges" ("category_id", "created_at", "description", "name", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["category_id", 1], ["created_at", "2014-08-18 13:40:22.538827"], ["description", "desc 1"], ["name", "edge 1"], ["updated_at", "2014-08-18 13:40:22.538827"]]
+  [1m[35m (0.0ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.1ms)[0m  INSERT INTO "requirements" ("created_at", "edge_id", "mode", "name", "updated_at", "value") VALUES (?, ?, ?, ?, ?, ?)  [["created_at", "2014-08-18 13:40:22.548383"], ["edge_id", 1], ["mode", "mode"], ["name", "req"], ["updated_at", "2014-08-18 13:40:22.548383"], ["value", "val"]]
+  [1m[36m (0.0ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.0ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.1ms)[0m  [1mINSERT INTO "requirements" ("created_at", "edge_id", "mode", "name", "updated_at", "value") VALUES (?, ?, ?, ?, ?, ?)[0m  [["created_at", "2014-08-18 13:40:22.550010"], ["edge_id", 1], ["mode", "mode"], ["name", "req"], ["updated_at", "2014-08-18 13:40:22.550010"], ["value", "val"]]
+  [1m[35m (0.0ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.0ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.1ms)[0m  INSERT INTO "categories" ("created_at", "name", "updated_at") VALUES (?, ?, ?)  [["created_at", "2014-08-18 13:40:22.551339"], ["name", "category"], ["updated_at", "2014-08-18 13:40:22.551339"]]
+  [1m[36m (0.0ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.0ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.1ms)[0m  [1mINSERT INTO "edges" ("category_id", "created_at", "description", "name", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["category_id", 2], ["created_at", "2014-08-18 13:40:22.552209"], ["description", "desc 2"], ["name", "edge 2"], ["updated_at", "2014-08-18 13:40:22.552209"]]
+  [1m[35m (0.0ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.0ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.1ms)[0m  INSERT INTO "requirements" ("created_at", "edge_id", "mode", "name", "updated_at", "value") VALUES (?, ?, ?, ?, ?, ?)  [["created_at", "2014-08-18 13:40:22.553460"], ["edge_id", 2], ["mode", "mode"], ["name", "req"], ["updated_at", "2014-08-18 13:40:22.553460"], ["value", "val"]]
+  [1m[36m (0.0ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.0ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.1ms)[0m  [1mINSERT INTO "requirements" ("created_at", "edge_id", "mode", "name", "updated_at", "value") VALUES (?, ?, ?, ?, ?, ?)[0m  [["created_at", "2014-08-18 13:40:22.554765"], ["edge_id", 2], ["mode", "mode"], ["name", "req"], ["updated_at", "2014-08-18 13:40:22.554765"], ["value", "val"]]
+  [1m[35m (0.0ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.0ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.0ms)[0m  INSERT INTO "categories" ("created_at", "name", "updated_at") VALUES (?, ?, ?)  [["created_at", "2014-08-18 13:40:22.556041"], ["name", "category"], ["updated_at", "2014-08-18 13:40:22.556041"]]
+  [1m[36m (0.0ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.0ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.1ms)[0m  [1mINSERT INTO "edges" ("category_id", "created_at", "description", "name", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["category_id", 3], ["created_at", "2014-08-18 13:40:22.556864"], ["description", "desc 3"], ["name", "edge 3"], ["updated_at", "2014-08-18 13:40:22.556864"]]
+  [1m[35m (0.0ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.0ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.1ms)[0m  INSERT INTO "requirements" ("created_at", "edge_id", "mode", "name", "updated_at", "value") VALUES (?, ?, ?, ?, ?, ?)  [["created_at", "2014-08-18 13:40:22.558039"], ["edge_id", 3], ["mode", "mode"], ["name", "req"], ["updated_at", "2014-08-18 13:40:22.558039"], ["value", "val"]]
+  [1m[36m (0.0ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.0ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.1ms)[0m  [1mINSERT INTO "requirements" ("created_at", "edge_id", "mode", "name", "updated_at", "value") VALUES (?, ?, ?, ?, ?, ?)[0m  [["created_at", "2014-08-18 13:40:22.559283"], ["edge_id", 3], ["mode", "mode"], ["name", "req"], ["updated_at", "2014-08-18 13:40:22.559283"], ["value", "val"]]
+  [1m[35m (0.0ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36mEdge Load (0.1ms)[0m  [1mSELECT "edges".* FROM "edges"[0m
+Started GET "/edges" for 127.0.0.1 at 2014-08-18 07:40:22 -0600
+  [1m[35m (0.6ms)[0m  rollback transaction
